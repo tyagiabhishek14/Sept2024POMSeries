@@ -52,7 +52,7 @@ public class BaseTest {
 		commonsPage = new CommonsPage(driver);
 		
         ChainPluginService.getInstance().addSystemInfo("Build#", "1.0");
-        //ChainPluginService.getInstance().addSystemInfo("Headless#", prop.getProperty("headless"));
+        ChainPluginService.getInstance().addSystemInfo("Headless#", prop.getProperty("headless"));
         ChainPluginService.getInstance().addSystemInfo("Incognito#", prop.getProperty("incognito"));
         ChainPluginService.getInstance().addSystemInfo("Owner#", "Naveen Automation Labs");
         System.out.println("Test git push");
