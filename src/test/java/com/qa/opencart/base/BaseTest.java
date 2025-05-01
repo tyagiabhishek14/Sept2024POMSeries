@@ -55,7 +55,7 @@ public class BaseTest {
         ChainPluginService.getInstance().addSystemInfo("Headless#", prop.getProperty("headless"));
         ChainPluginService.getInstance().addSystemInfo("Incognito#", prop.getProperty("incognito"));
         ChainPluginService.getInstance().addSystemInfo("Owner#", "Naveen Automation Labs");
-
+        System.out.println("Test git push");
 	}
 	
 	@AfterMethod
